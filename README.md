@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Text Analyzer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Text Analyzer is a React-based web application that allows users to input text and receive various analyses, including:
 
-## Available Scripts
+- Word and character count
+- Conversion to uppercase and lowercase
+- Removal of extra spaces
+- Copying processed text to clipboard
 
-In the project directory, you can run:
+This tool is designed to assist users in efficiently processing and analyzing textual data.
 
-### `npm start`
+## Features
+- **Word Count**: Displays the total number of words in the input text.
+- **Character Count**: Shows the total number of characters.
+- **Uppercase Conversion**: Converts the entire text to uppercase.
+- **Lowercase Conversion**: Converts the entire text to lowercase.
+- **Extra Space Removal**: Eliminates unnecessary spaces between words.
+- **Copy to Clipboard**: Allows users to copy the processed text for external use.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Technologies Used
+- **React.js**: A JavaScript library for building user interfaces.
+- **JavaScript**: The programming language used for application logic.
+- **HTML5**: Markup language for structuring the web page.
+- **CSS3**: Styling language for designing the user interface.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
+To run the project locally, follow these steps:
 
-### `npm test`
+1. **Clone the repository**:
+   ```sh
+   git clone https://github.com/Mayank99094/Text-Analyzer.git
+   ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+2. **Navigate to the project directory**:
+   ```sh
+   cd Text-Analyzer
+   ```
 
-### `npm run build`
+3. **Install dependencies**:
+   ```sh
+   npm install
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
+To start the development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```sh
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Then, open [http://localhost:3000/](http://localhost:3000/) in your browser to interact with the application.
 
-### `npm run eject`
+## Contribution
+Contributions are welcome! If you'd like to enhance the project, please fork the repository, create a new branch, and submit a pull request with your changes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contact
+For any inquiries or issues, please open an issue on GitHub or contact me at ravalmayank95@gmail.com.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
